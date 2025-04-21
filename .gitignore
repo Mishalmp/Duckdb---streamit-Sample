@@ -1,0 +1,14 @@
+# Ignore virtual environments
+.venv/
+.env/
+.streamlitvenv/
+
+# Make sure .gitignore contains these lines
+.streamlitvenv/
+.streamlitvenv/**
+
+# Ignore Jupyter Notebook checkpoints
+**/__pycache__/
+*.py[cod]
+*.so
+*.pyd
